@@ -1,0 +1,31 @@
+{
+	"name": "webclientsample1",
+	"description": "Web Client UI Extension addons and Fiori Application addons",
+	"version": "0.0.1",
+	"vendor": "sapvendor",
+	"multiple-version": "false",
+	"fiori-app": [
+		{
+			"name": "fiori-rate",
+			"folder": "fiori-rate"
+		}
+	],
+	"user-tiles": [
+		{
+			"Name": "9A4BB30C-629C-4D20-B60A-FF6EF95C60C4",
+			"ID": "tile-001",
+			"Description": "testTile-001",
+			"URL": "http://sap.com",
+			"LinkMethod": "fiori-xxx",
+			"Image": "sap-icon://add-process"
+		},
+		{
+			"Name": "4AB58EF4-4BF8-4199-BF15-25CF4692C4DA",
+			"ID": "tile-002",
+			"Description": "testTile-002",
+			"URL": "https://wiki.scn.sap.com/",
+			"LinkMethod": "fiori-xxx",
+			"Image": "sap-icon://add-contact"
+		}
+	]
+}
